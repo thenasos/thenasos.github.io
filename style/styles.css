@@ -1,0 +1,77 @@
+/* ---------------------------------------------------------
+   HTML5 Bones
+   This stylesheet contains print styling and a section for 
+   you to simply add your own. This is a basic template 
+   after all.
+   ---------------------------------------------------------*/
+body { 
+	position:absolute; 
+	top:0; 
+	bottom:0; 
+	right:0; 
+	left:0; 
+	background-image: url("img/tamsusLFGC.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+p {
+	color:#ff1900;
+	font-size:2em;
+	text-align:center;
+	font-family: 'Russo One', sans-serif;
+	margin:0;
+}
+h1 {
+	color:#ff1900;
+	font-size:3em;
+	text-align:center;
+	font-family: 'Russo One', sans-serif;
+	background-color: ghostwhite;
+	margin:0;
+	width:100%;
+}
+#txt {text-shadow: 2px 2px #000;}
+
+#txt, h2{
+	color:ghostwhite;
+	font-size:2.2em;
+	text-align:center;
+	font-family: 'Russo One', sans-serif;
+}
+
+
+   
+.content {
+	display: flex;
+	flex-flow: row wrap;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding:0;
+	justify-content: space-around;
+	
+}
+.tourney {
+	height: 440px;
+	width: 80%;
+	padding: 5px;
+	
+}
+.next {
+	top: 50px;
+	position: relative;
+	
+}
+
+.bracket-svg {
+	width:100%;
+	
+}
+
+	
+	
+/* ---------------------------------------------------------
+   Print styles
+   ---------------------------------------------------------*/
+@media print {}
