@@ -8,7 +8,7 @@ function startTime() {
     document.getElementById('txt').innerHTML =
     h + ":" + m + ":" + s;
   	$( "#game1" ).load( "names.html .game1");
-	$( ".current" ).load( "names.html #fighting li");
+	$( ".Fighting" ).load( "names.html #current li");
 	$( ".next1" ).load( "names.html #next1 li");
     var t = setTimeout(startTime, 500);
 	
