@@ -58,7 +58,12 @@ h1 {
 	
 }
 .next {
-
+	width: 24%
+	top: 50px;
+	position: relative;
+}
+.current {
+	width: 25%
 	top: 50px;
 	position: relative;
 }
