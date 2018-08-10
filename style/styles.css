@@ -50,6 +50,9 @@ h1 {
 	padding:0;
 	
 }
+
+.clearfix {height: 95%;}
+
 .tourney {
 	height: 440px;
 	width: 70%;
