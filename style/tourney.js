@@ -1,4 +1,3 @@
-
 function startTime() {
     var today = new Date();
     var h = today.getHours();
@@ -9,11 +8,9 @@ function startTime() {
     document.getElementById('txt').innerHTML =
     h + ":" + m + ":" + s;
   	$( "#game1" ).load( "names.html .game1");
-	$( "#game2" ).load( "names.html .game2");
+	$( ".Fighting" ).load( "names.html #Fighting li");
 	$( ".next1" ).load( "names.html #next1 li");
-	$( ".next2" ).load( "names.html #next2 li");
     var t = setTimeout(startTime, 500);
-	
 	
 }
 function checkTime(i) {
