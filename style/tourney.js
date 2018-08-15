@@ -5,11 +5,10 @@ type     : "GET",
 url      : "tournaments.xml",
 dataType : "xml",
 success  : function(xmlData){
-matchName = $('name',xmlData).innerHTML;
-		 $('#game1')[0].innerHTML = matchName;
-	}
+	matchName = $('name',xmlData)[0].innerHTML;
+	$('#game1')[0].innerHTML = matchName;
 	
-}
+
 
  // count XML nodes
 //alert("This XML file has " + totalNodes);
