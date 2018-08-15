@@ -10,7 +10,7 @@ body {
 	bottom:0; 
 	right:0; 
 	left:0; 
-	background-image: url("img/tamsusLFGC.jpg"); 
+	background-image: url("img/girl_b.jpg"); 
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -24,11 +24,13 @@ p{
 	margin:0;
 }
 h1 {
-	color:#ff1900;
+	top:0;
+	position:fixed;
+	color:ghostwhite;
 	font-size:2.5em;
 	text-align:center;
 	font-family: 'Russo One', sans-serif;
-	background-color: ghostwhite;
+	background-color: #ff1900;
 	margin:0;
 	width:100%;
 }
@@ -36,6 +38,7 @@ h1 {
 
 #txt, h2{
 	color:ghostwhite;
+	background-color: #ff1900;
 	font-size:2em;
 	font-family: 'Russo One', sans-serif;
 	max-height: 25px;
@@ -54,27 +57,41 @@ h1 {
 }
 
 .tourney {
-	height: 90vh;
+	
+	height: 93vh;
 	width: 70%;
 	padding: 5px;
 	
 }
 .next {
-	max-width: 9%;
-	top: 50px;
+	max-height: 60%;
+	width: 100%;
+	top: 0px;
 	position: relative;
 	margin-right: 10px;
+	background-color: #ff1900;
 }
 .current {
-	max-width: 15%;
-	top: 50px;
+	max-height: 40%;
+	width: 100%;
+	top: 0px;
 	position: relative;
 	margin-right: 20px;
+	background-color: #ff1900;
+}
+
+#sidebar {
+	width:29%;
+	position:fixed;
+	right: 0;
+	margin:0;
+	padding-top:30px;
+	
 }
 
 ul {
 	top:20px;
-	color:#ff1900;
+	color:ghostwhite;
 	list-style-type: none;	
 	font-size:1.5em;
 	padding:0;

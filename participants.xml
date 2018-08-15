@@ -71,7 +71,7 @@
     <invitation-id nil="true"/>
     <invite-email nil="true"/>
     <misc nil="true"/>
-    <name>Participant #33</name>
+    <name>Participant #3</name>
     <on-waiting-list type="boolean">false</on-waiting-list>
     <seed type="integer">3</seed>
     <tournament-id type="integer">1086875</tournament-id>
