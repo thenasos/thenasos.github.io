@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<participants type="array">
+  <participant>
+    <active type="boolean">true</active>
+    <checked-in-at nil="true"/>
+    <created-at>2015-01-19T16:54:40-05:00</created-at>
+    <final-rank nil="true"/>
+    <group-id nil="true"/>
+    <icon nil="true"/>
+    <id type="integer">16543993</id>
+    <invitation-id nil="true"/>
+    <invite-email nil="true"/>
+    <misc nil="true"/>
+    <name>Participant #1</name>
+    <on-waiting-list type="boolean">false</on-waiting-list>
+    <seed type="integer">1</seed>
+    <tournament-id type="integer">1086875</tournament-id>
+    <updated-at>2015-01-19T16:54:40-05:00</updated-at>
+    <challonge-username nil="true"/>
+    <challonge-email-address-verified nil="true"/>
+    <removable type="boolean">true</removable>
+    <participatable-or-invitation-attached type="boolean">false</participatable-or-invitation-attached>
+    <confirm-remove type="boolean">true</confirm-remove>
+    <invitation-pending type="boolean">false</invitation-pending>
+    <display-name-with-invitation-email-address>Participant #1</display-name-with-invitation-email-address>
+    <email-hash nil="true"/>
+    <username nil="true"/>
+    <attached-participatable-portrait-url nil="true"/>
+    <can-check-in type="boolean">false</can-check-in>
+    <checked-in type="boolean">false</checked-in>
+    <reactivatable type="boolean">false</reactivatable>
+  </participant>
+  <participant>
+    <active type="boolean">true</active>
+    <checked-in-at nil="true"/>
+    <created-at>2015-01-19T16:54:43-05:00</created-at>
+    <final-rank nil="true"/>
+    <group-id nil="true"/>
+    <icon nil="true"/>
+    <id type="integer">16543994</id>
+    <invitation-id nil="true"/>
+    <invite-email nil="true"/>
+    <misc nil="true"/>
+    <name>Participant #2</name>
+    <on-waiting-list type="boolean">false</on-waiting-list>
+    <seed type="integer">2</seed>
+    <tournament-id type="integer">1086875</tournament-id>
+    <updated-at>2015-01-19T16:54:43-05:00</updated-at>
+    <challonge-username nil="true"/>
+    <challonge-email-address-verified nil="true"/>
+    <removable type="boolean">true</removable>
+    <participatable-or-invitation-attached type="boolean">false</participatable-or-invitation-attached>
+    <confirm-remove type="boolean">true</confirm-remove>
+    <invitation-pending type="boolean">false</invitation-pending>
+    <display-name-with-invitation-email-address>Participant #2</display-name-with-invitation-email-address>
+    <email-hash nil="true"/>
+    <username nil="true"/>
+    <attached-participatable-portrait-url nil="true"/>
+    <can-check-in type="boolean">false</can-check-in>
+    <checked-in type="boolean">false</checked-in>
+    <reactivatable type="boolean">false</reactivatable>
+  </participant>
+  <participant>
+    <active type="boolean">true</active>
+    <checked-in-at nil="true"/>
+    <created-at>2015-01-19T16:57:10-05:00</created-at>
+    <final-rank nil="true"/>
+    <group-id nil="true"/>
+    <icon nil="true"/>
+    <id type="integer">16543996</id>
+    <invitation-id nil="true"/>
+    <invite-email nil="true"/>
+    <misc nil="true"/>
+    <name>Participant #33</name>
+    <on-waiting-list type="boolean">false</on-waiting-list>
+    <seed type="integer">3</seed>
+    <tournament-id type="integer">1086875</tournament-id>
+    <updated-at>2015-01-19T16:57:10-05:00</updated-at>
+    <challonge-username nil="true"/>
+    <challonge-email-address-verified nil="true"/>
+    <removable type="boolean">true</removable>
+    <participatable-or-invitation-attached type="boolean">false</participatable-or-invitation-attached>
+    <confirm-remove type="boolean">true</confirm-remove>
+    <invitation-pending type="boolean">false</invitation-pending>
+    <display-name-with-invitation-email-address>Participant #3</display-name-with-invitation-email-address>
+    <email-hash nil="true"/>
+    <username nil="true"/>
+    <attached-participatable-portrait-url nil="true"/>
+    <can-check-in type="boolean">false</can-check-in>
+    <checked-in type="boolean">false</checked-in>
+    <reactivatable type="boolean">false</reactivatable>
+  </participant>
+  <participant>
+    <active type="boolean">true</active>
+    <checked-in-at nil="true"/>
+    <created-at>2015-01-19T16:57:12-05:00</created-at>
+    <final-rank nil="true"/>
+    <group-id nil="true"/>
+    <icon nil="true"/>
+    <id type="integer">16543997</id>
+    <invitation-id nil="true"/>
+    <invite-email nil="true"/>
+    <misc nil="true"/>
+    <name>Participant #4</name>
+    <on-waiting-list type="boolean">false</on-waiting-list>
+    <seed type="integer">4</seed>
+    <tournament-id type="integer">1086875</tournament-id>
+    <updated-at>2015-01-19T16:57:12-05:00</updated-at>
+    <challonge-username nil="true"/>
+    <challonge-email-address-verified nil="true"/>
+    <removable type="boolean">true</removable>
+    <participatable-or-invitation-attached type="boolean">false</participatable-or-invitation-attached>
+    <confirm-remove type="boolean">true</confirm-remove>
+    <invitation-pending type="boolean">false</invitation-pending>
+    <display-name-with-invitation-email-address>Participant #4</display-name-with-invitation-email-address>
+    <email-hash nil="true"/>
+    <username nil="true"/>
+    <attached-participatable-portrait-url nil="true"/>
+    <can-check-in type="boolean">false</can-check-in>
+    <checked-in type="boolean">false</checked-in>
+    <reactivatable type="boolean">false</reactivatable>
+  </participant>
+</participants>
