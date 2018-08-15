@@ -1,19 +1,24 @@
-function startTime() {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('txt').innerHTML =
-    h + ":" + m + ":" + s;
-  	$( "#game1" ).load( "names.html .game1");
-	$( ".fighting" ).load( "names.html #current li");
-	$( ".next1" ).load( "names.html #next1 li");
-    var t = setTimeout(startTime, 500);
+var totalNodes = "";
+var matchName = "";
+$.ajax({
+type     : "GET",
+url      : "matches.xml",
+dataType : "xml",
+success  : function(xmlData){
+totalNodes = $('match',xmlData);
+for (i = 0; i < totalNodes.length; i++){
+	if(totalNodes[i].children[5].innerHTML = "B"){
+		matchName = totalNodes[i].children[5].innerHTML;
+		 $('#smth')[0].innerHTML = matchName;
+	}
 	
 }
-function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-    return i;
+
+ // count XML nodes
+//alert("This XML file has " + totalNodes);
+
+},
+error    : function(){
+     alert("Could not retrieve XML file.");
 }
+ });

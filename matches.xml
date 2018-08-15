@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matches type="array">
+  <match>
+    <attachment-count nil="true"/>
+    <created-at>2015-01-19T16:57:17-05:00</created-at>
+    <group-id nil="true"/>
+    <has-attachment type="boolean">false</has-attachment>
+    <id type="integer">23575258</id>
+    <identifier>A</identifier>
+    <location nil="true"/>
+    <loser-id nil="true"/>
+    <player1-id type="integer">16543993</player1-id>
+    <player1-is-prereq-match-loser type="boolean">false</player1-is-prereq-match-loser>
+    <player1-prereq-match-id nil="true"/>
+    <player1-votes nil="true"/>
+    <player2-id type="integer">16543997</player2-id>
+    <player2-is-prereq-match-loser type="boolean">false</player2-is-prereq-match-loser>
+    <player2-prereq-match-id nil="true"/>
+    <player2-votes nil="true"/>
+    <round type="integer">1</round>
+    <scheduled-time nil="true"/>
+    <started-at>2015-01-19T16:57:17-05:00</started-at>
+    <state>open</state>
+    <tournament-id type="integer">1086875</tournament-id>
+    <underway-at nil="true"/>
+    <updated-at>2015-01-19T16:57:17-05:00</updated-at>
+    <winner-id nil="true"/>
+    <prerequisite-match-ids-csv></prerequisite-match-ids-csv>
+    <scores-csv></scores-csv>
+  </match>
+  <match>
+    <attachment-count nil="true"/>
+    <created-at>2015-01-19T16:57:17-05:00</created-at>
+    <group-id nil="true"/>
+    <has-attachment type="boolean">false</has-attachment>
+    <id type="integer">23575259</id>
+    <identifier>B</identifier>
+    <location nil="true"/>
+    <loser-id nil="true"/>
+    <player1-id type="integer">16543994</player1-id>
+    <player1-is-prereq-match-loser type="boolean">false</player1-is-prereq-match-loser>
+    <player1-prereq-match-id nil="true"/>
+    <player1-votes nil="true"/>
+    <player2-id type="integer">16543996</player2-id>
+    <player2-is-prereq-match-loser type="boolean">false</player2-is-prereq-match-loser>
+    <player2-prereq-match-id nil="true"/>
+    <player2-votes nil="true"/>
+    <round type="integer">1</round>
+    <scheduled-time nil="true"/>
+    <started-at>2015-01-19T16:57:17-05:00</started-at>
+    <state>open</state>
+    <tournament-id type="integer">1086875</tournament-id>
+    <underway-at nil="true"/>
+    <updated-at>2015-01-19T16:57:17-05:00</updated-at>
+    <winner-id nil="true"/>
+    <prerequisite-match-ids-csv></prerequisite-match-ids-csv>
+    <scores-csv></scores-csv>
+  </match>
+  <match>
+    <attachment-count nil="true"/>
+    <created-at>2015-01-19T16:57:17-05:00</created-at>
+    <group-id nil="true"/>
+    <has-attachment type="boolean">false</has-attachment>
+    <id type="integer">23575260</id>
+    <identifier>C</identifier>
+    <location nil="true"/>
+    <loser-id nil="true"/>
+    <player1-id nil="true"/>
+    <player1-is-prereq-match-loser type="boolean">false</player1-is-prereq-match-loser>
+    <player1-prereq-match-id type="integer">23575258</player1-prereq-match-id>
+    <player1-votes nil="true"/>
+    <player2-id nil="true"/>
+    <player2-is-prereq-match-loser type="boolean">false</player2-is-prereq-match-loser>
+    <player2-prereq-match-id type="integer">23575259</player2-prereq-match-id>
+    <player2-votes nil="true"/>
+    <round type="integer">2</round>
+    <scheduled-time nil="true"/>
+    <started-at nil="true"/>
+    <state>pending</state>
+    <tournament-id type="integer">1086875</tournament-id>
+    <underway-at nil="true"/>
+    <updated-at>2015-01-19T16:57:17-05:00</updated-at>
+    <winner-id nil="true"/>
+    <prerequisite-match-ids-csv>23575258,23575259</prerequisite-match-ids-csv>
+    <scores-csv></scores-csv>
+  </match>
+</matches>
