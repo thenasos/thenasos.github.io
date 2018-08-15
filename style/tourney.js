@@ -2,14 +2,11 @@ var totalNodes = "";
 var matchName = "";
 $.ajax({
 type     : "GET",
-url      : "matches.xml",
+url      : "tournaments.xml",
 dataType : "xml",
 success  : function(xmlData){
-totalNodes = $('match',xmlData);
-for (i = 0; i < totalNodes.length; i++){
-	if(totalNodes[i].children[5].innerHTML = "B"){
-		matchName = totalNodes[i].children[5].innerHTML;
-		 $('#smth')[0].innerHTML = matchName;
+matchName = $('name',xmlData).innerHTML;
+		 $('#game1')[0].innerHTML = matchName;
 	}
 	
 }
