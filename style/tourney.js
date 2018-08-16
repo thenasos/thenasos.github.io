@@ -33,6 +33,23 @@ type     : "GET",
 url      : "matches.xml",
 dataType : "xml",
 success  : function(xmlData){
+	currentFighter1 = $('ActiveMatch',xmlData)[0].children[0].getAttribute('name');
+	currentFighter2 = $('ActiveMatch',xmlData)[0].children[1].getAttribute('name');
+	nextFighter1 = $('NextMatch',xmlData)[0].children[0].getAttribute('name');
+	nextFighter2 = $('NextMatch',xmlData)[0].children[1].getAttribute('name');
+	//currentFighter2 = $('Active Match',xmlData).child[1].innerHTML;
+	
+	$('.fighting')[0].innerHTML = currentFighter1 + " vs " + currentFighter2;
+	$('.next1')[0].innerHTML = nextFighter1 + " vs " + nextFighter2;
+	}
+});
+
+/*
+$.ajax({
+type     : "GET",
+url      : "matches.xml",
+dataType : "xml",
+success  : function(xmlData){
 	totalNodes = $('match',xmlData);
 	for (var i=0; i<totalNodes.length; i++){
 		if ($('state',xmlData)[i].innerHTML === "open"){
@@ -58,8 +75,7 @@ success  : function(xmlData){
 
 	}}
 }});
-
-	$( ".next1" ).load( "names.html #next1 li");
+*/
     var t = setTimeout(startTime, 500);
 	
 }
